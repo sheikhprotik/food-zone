@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    background-color: #ebf8ff;
 }
 h1{
     font-size: 50px;
@@ -37,4 +38,30 @@ h3{
     display: inline-block;
 
 }
-.text
+.middle-section{
+    display: flex;
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    margin: 0px;
+    background-size:100%;
+}
+.middle-banner{
+    width: 50%;
+    padding-right: 5%;
+    padding-top: 50px;
+}
+.middle-banner img{
+    width: 70%;
+    padding-top: 7%;
+    padding-left: 8%;
+}
+.button2{
+    color: white;
+    background-image: linear-gradient(90deg,#a5d4ee,#14b8fc,#0388f7);
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 17px 40px;
+    margin-top: 30px;
+    display: inline-block;
