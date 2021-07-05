@@ -65,3 +65,34 @@ h3{
     padding: 17px 40px;
     margin-top: 30px;
     display: inline-block;
+}
+.area3{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.box
+{
+    border-radius: 50px;
+    box-shadow: -1px 6px 13px 0px rgba(0,0,0,0.44);
+    height: 100%;
+    width: 50%;
+    border-radius: 25px;
+    margin:30px;
+
+}
+
+.imgpad{
+    padding-left:20px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.ptag
+{
+    margin: 5%;
+    text-align: justify;
+    margin-bottom: 10%;
+    color: black;
+}
