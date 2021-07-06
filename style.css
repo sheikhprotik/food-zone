@@ -1,4 +1,8 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
@@ -99,7 +103,7 @@ h3{
 .card
 {
     border-radius: 50px;
-    box-shadow: -1px 6px 13px 0px rgba(0,0,0,0.44);
+    box-shadow: -1px 6px 13px 0px rgba(216, 195, 195, 0.44);
     height: 100%;
     width: 50%;
     border-radius: 25px;
@@ -126,7 +130,7 @@ h3{
 }
 .stat{
     display: flex;
-    box-shadow: -1px 6px 13px 0px rgba(0,0,0,0.44);
+    box-shadow: -1px 6px 13px 0px rgba(216, 195, 195, 0.44);
     margin: 70px 100px;
     padding: 40px 5px;
     border-radius: 20px;
