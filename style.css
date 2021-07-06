@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
@@ -19,7 +20,7 @@ h3{
     color: #50494a;
 }
 .top-banner img{
-    width: 75%;
+    width: 90%;
     padding-top: 2%;
     padding-left: 27%;
 }
@@ -44,16 +45,25 @@ h3{
     background-repeat: no-repeat;
     margin: 0px;
     background-size:100%;
+    color: #50494a;
 }
 .middle-banner{
     width: 50%;
     padding-right: 5%;
     padding-top: 50px;
 }
+.middle-banner h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px
+    
+    
+}
 .middle-banner img{
     width: 70%;
     padding-top: 7%;
     padding-left: 8%;
+    
 }
 .button2{
     color: white;
@@ -63,17 +73,30 @@ h3{
     font-size: 15px;
     font-weight: 400;
     padding: 17px 40px;
-    margin-top: 30px;
+    margin:30px 0px;
+
     display: inline-block;
 }
-.area3{
+.third-section{
+
+    text-align: center;
+}
+.third-section h2{
+    margin-bottom: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #50494a;
+
+}
+.card-area{
     display: flex;
-    margin-top: 1%;
+    margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
+
     
 }
-.box
+.card
 {
     border-radius: 50px;
     box-shadow: -1px 6px 13px 0px rgba(0,0,0,0.44);
@@ -81,18 +104,64 @@ h3{
     width: 50%;
     border-radius: 25px;
     margin:30px;
+    padding: 15px 15px 15px 15px;
 
 }
 
-.imgpad{
-    padding-left:20px;
-    margin-top: 20px;
-    border-radius: 30px;
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    padding-bottom: 5%;
 }
-.ptag
+.card h2{
+    padding-left: 3%;
+}
+.card p
 {
     margin: 5%;
     text-align: justify;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     color: black;
 }
+.stat{
+    display: flex;
+    box-shadow: -1px 6px 13px 0px rgba(0,0,0,0.44);
+    margin: 70px 100px;
+    padding: 40px 5px;
+    border-radius: 20px;
+}
+.lst{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 20%;
+    margin-top: -25px;
+}
+.lst h1{
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.lst p{
+    margin-top: 0px;
+    font-size: small;
+    text-align: center;
+}
+footer{
+    background-color: black;
+}
+.foot{
+    text-align: center;
+    color:white;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    margin-top: 6%;
+}
+.foot-color{
+    color: orange;
+}
+
+
+
+
